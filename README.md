@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>R básico aplicado a Sistemas de Información Geográfico</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ariadna Angulo-Brunet" />
     <script src="libs/header-attrs/header-attrs.js"></script>
