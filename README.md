@@ -12,6 +12,8 @@ Luego, tenemos que indicar que esta es una "cell-magic" que usa R, y en cada cel
            
     %%R
 
+### Librerías para mapas vectoriales y raster
+
 Utilizaremos las librerías para manejo de archivos de mapas vectoriales y raster
 Vamos a necesitar los siguientes paquetes: 
 
@@ -25,7 +27,7 @@ Vamos a necesitar los siguientes paquetes:
 rgdal: nos permite leer archivos shape. 
 raster: nos permite leer archivos raster.
 
-###Descarga de los datos a tu drive
+### Descarga de los datos a tu drive
 
 ¿Qué hace gdown? La función gdown nos ayuda a descargar los datos públicos de mi drive hacia el tuyo.
 
@@ -37,7 +39,7 @@ raster: nos permite leer archivos raster.
     #Archivo INEGI_Entidad_.dbf
     system("gdown --id 12Dv6PpmUKkqmsNm6Q4Q93ekJM4wzWasT")#https://drive.google.com/file/d/12Dv6PpmUKkqmsNm6Q4Q93ekJM4wzWasT/view?usp=sharing
     
-###Usando GDAL para leer un shape
+### Usando GDAL para leer un shape
 
 La función readOGR leé el shape y carga la base de datos en un objeto.
 La librería rgdal sobrecarga la funcion "plot", para que pueda graficar los shapes.
@@ -49,7 +51,7 @@ La librería rgdal sobrecarga la funcion "plot", para que pueda graficar los sha
     plot(shapeMex)
 
 
-###Ver que campos contiene la base de datos y extraer un submapa
+### Ver que campos contiene la base de datos y extraer un submapa
 
 Vemos los nombre de campos
 Vemos los valores "únicos" en un campo
@@ -67,7 +69,7 @@ Extraemos una parte del mapa filtrando la base de datos.
     plot(shapeColima)
     print(shapeColima)
 
-###Recortar una parte del shape
+### Recortar una parte del shape
 
 El mapa de colima tiene algunas islas que no son de interés para la tarea. Las vamos a recortar haciendo un rectangulo alrededor de la parte continental.
 
@@ -79,7 +81,7 @@ El mapa de colima tiene algunas islas que no son de interés para la tarea. Las 
     shapeTerraColima=crop(shapeColima,pol)
     plot(shapeTerraColima)
 
-###Guardamos el shape
+### Guardamos el shape
 
 Por último, vamos a almacenar el shape que acabamos de recortar
 
