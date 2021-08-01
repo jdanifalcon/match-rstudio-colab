@@ -2,7 +2,7 @@
 
 Jessica Daniela Ocaña Falcón
 
-Este texto forma parte de la presentación desarrollada el xx de agosto de 2021 para Rladies Guadalajara. También puedes encontrar las diapositivas aquí y los Scripts completos en esta carpeta. El objetivo principal es dar una breve introducción a R y a los paquetes especializados en Sistemas de Información Geográfica en Google Colab.
+Este texto forma parte de la presentación desarrollada el 10 de agosto de 2021 para Rladies Guadalajara. También puedes encontrar las diapositivas aquí y los Scripts completos en esta carpeta. El objetivo principal es dar una breve introducción a R y a los paquetes especializados en Sistemas de Información Geográfica en Google Colab.
 
 Para empezar, vamos a cargar la extensión que nos permite ejecutar código de R en Colab:
 
