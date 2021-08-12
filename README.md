@@ -29,7 +29,7 @@ raster: nos permite leer archivos raster.
 
 ### Descarga de los datos a tu drive
 
-¿Qué hace gdown? La función gdown nos ayuda a descargar los datos públicos de mi drive hacia el tuyo.
+¿Qué hace gdown? La función gdown nos ayuda a descargar los datos públicos de drive del Dr. Ivvan hacia mi drive o hacia el tuyo.
 
     %%R
     #Archivo INEGI_Entidad_.shx
