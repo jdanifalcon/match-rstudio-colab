@@ -4,6 +4,8 @@ Jessica Daniela Ocaña Falcón
 
 Este texto forma parte de la presentación desarrollada el 17 de agosto de 2021 para Rladies Guadalajara. También puedes encontrar las diapositivas aquí y los Jupyter Notebook completos en este mismo repositorio. El objetivo principal es dar una breve introducción a R y a los paquetes especializados en Sistemas de Información Geográfica en Google Colab. Un agradecimiento especial al Dr. Ivvan Valdez y a Centro Geo por la capacitación y asesoría, así como la información que compartieron y usaron en la Escuela de Verano Centro Geo 2021. Compartiendo el conocimiento, crecemos como seres humanos.
 
+Si necesitas orientación, aquí te dejo la [grabación]https://www.facebook.com/RLadiesGDL/videos/203046058539078/) del taller.
+
 Para empezar, vamos a cargar la extensión que nos permite ejecutar código de R en Colab:
 
     %load_ext rpy2.ipython
